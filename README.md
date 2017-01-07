@@ -11,4 +11,4 @@ Files shouldn't have a header
 -n: The new file contains all SNPs in plink .map format. An example of this is supplied as "new.map". If you want to obtain a file containing your own SNP locations alone, simply run the following, where rs is a string commonly found in the SNP names of the downloaded plink.map file:
 grep -v "rs" new.map > new1.map
 
-Should iterpolation of genetic distance be required, this can be achieved by removing the hases of the pandas option later on in the script. You can use the toy data to check the behaviour.
+Should iterpolation of genetic distance be required, this can be achieved by removing the hashes of the pandas option later on in the script and redirect output through subsequent commands. You can use the toy data to check the behaviour.
